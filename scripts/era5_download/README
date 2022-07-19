@@ -1,0 +1,6 @@
+Mike Optis
+2022-07-19
+
+Here we include scripts used to download raw ERA5 data from the Copernicus server. 
+Right now we have data from 2018 through to 2021 and nothing needs to be added
+at this time.
