@@ -1,0 +1,5 @@
+name	reanal   sst       interval
+WPS1	era5	 default   10800
+WPS2	era5	 sst       10800
+WPS3	merra2	 default   21600
+WPS4	merra2	 sst       21600

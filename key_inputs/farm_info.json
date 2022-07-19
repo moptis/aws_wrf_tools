@@ -1,0 +1,373 @@
+{ "slate_creek": {
+   "name": "slate_creek",
+   "lat_min": 91,
+   "lat_max": 96,
+   "lon_min": 73,
+   "lon_max": 81,
+   "pw_coords": [{"lat": 91, "lon": 78},
+                 {"lat": 91, "lon": 79},
+                 {"lat": 92, "lon": 77},
+                 {"lat": 92, "lon": 78},
+                 {"lat": 92, "lon": 79},
+                 {"lat": 93, "lon": 74},
+                 {"lat": 93, "lon": 75},
+                 {"lat": 93, "lon": 76},
+                 {"lat": 93, "lon": 77},
+		 {"lat": 94, "lon": 73},
+                 {"lat": 94, "lon": 74},
+                 {"lat": 94, "lon": 75},
+                 {"lat": 94, "lon": 76}
+                ],
+   "fs_lat": 76,
+   "fs_lon": 77,
+   "ws_height": 79,
+   "th_height1": 15,
+   "th_height2": 76
+  },
+
+ "spearville3": {
+   "name": "spearville3",
+   "lat_min": 76,
+   "lat_max": 80,
+   "lon_min": 75,
+   "lon_max": 79,
+   "pw_coords": [{"lat": 76, "lon": 76},
+                 {"lat": 76, "lon": 77},
+		 {"lat": 77, "lon": 76},
+		 {"lat": 77, "lon": 77},
+		 {"lat": 78, "lon": 76},
+		 {"lat": 78, "lon": 77},
+		 {"lat": 78, "lon": 78},
+		 {"lat": 79, "lon": 77},
+                 {"lat": 79, "lon": 78}
+                ],
+   "fs_lat": 76,
+   "fs_lon": 77,
+   "ws_height": 79,
+   "th_height1": 15,
+   "th_height2": 76
+  },
+
+"spinning_spur": {
+   "name": "spinning_spur",
+   "pw_coords": [{"lat": 107, "lon": 99},
+                 {"lat": 107, "lon": 100},
+                 {"lat": 108, "lon": 96},
+                 {"lat": 108, "lon": 97},
+                 {"lat": 108, "lon": 98},
+                 {"lat": 109, "lon": 96},
+                 {"lat": 109, "lon": 97},
+                 {"lat": 109, "lon": 98},
+                 {"lat": 109, "lon": 99},
+                 {"lat": 109, "lon": 100},
+                 {"lat": 109, "lon": 101},
+                 {"lat": 110, "lon": 95},
+                 {"lat": 110, "lon": 96},
+                 {"lat": 110, "lon": 97},
+                 {"lat": 110, "lon": 98},
+                 {"lat": 110, "lon": 99},
+                 {"lat": 111, "lon": 97}
+
+                ],
+   "fs_lat": 107,
+   "fs_lon": 97,
+   "ws_height": 80,
+   "th_height1": 15,
+   "th_height2": 74
+  },
+
+"spinning_spur3": {
+   "name": "spinning_spur3",
+   "pw_coords": [{"lat": 107, "lon": 85},
+                 {"lat": 107, "lon": 86},
+	         {"lat": 107, "lon": 87},
+                 {"lat": 107, "lon": 88},
+                 {"lat": 107, "lon": 89},
+                 {"lat": 108, "lon": 84},
+                 {"lat": 108, "lon": 85},
+                 {"lat": 108, "lon": 86},
+                 {"lat": 108, "lon": 87},
+                 {"lat": 108, "lon": 88},
+                 {"lat": 108, "lon": 89},
+                 {"lat": 109, "lon": 84},
+                 {"lat": 109, "lon": 85},
+                 {"lat": 109, "lon": 86},
+                 {"lat": 109, "lon": 87},
+                 {"lat": 109, "lon": 88},
+                 {"lat": 109, "lon": 89},
+                 {"lat": 110, "lon": 86},
+                 {"lat": 110, "lon": 87},
+                 {"lat": 110, "lon": 88},
+                 {"lat": 111, "lon": 86},
+                 {"lat": 111, "lon": 87},
+                 {"lat": 111, "lon": 88}
+                ],
+   "fs_lat": 107,
+   "fs_lon": 97,
+   "ws_height": 80,
+   "th_height1": 15,
+   "th_height2": 74
+  },
+
+  "longhorn": {
+   "name": "longhorn",
+   "lat_min": 88,
+   "lat_max": 91,
+   "lon_min": 81,
+   "lon_max": 85,
+   "pw_coords": [{"lat": 88, "lon": 81},
+                 {"lat": 88, "lon": 82},
+                 {"lat": 88, "lon": 83},
+                 {"lat": 89, "lon": 80},
+                 {"lat": 89, "lon": 81},
+                 {"lat": 89, "lon": 82},
+                 {"lat": 89, "lon": 83},
+                 {"lat": 90, "lon": 81},
+                 {"lat": 90, "lon": 82}
+                ],
+   "fs_lat": 87,
+   "fs_lon": 80,
+   "ws_height": 80,
+   "th_height1": 11,
+   "th_height2": 76
+  },
+
+  "morro_bay": {
+   "name": "morro_bay",
+   "lat_min": 80,
+   "lat_max": 109,
+   "lon_min": 77,
+   "lon_max": 109,
+   "fs_lat": 21,
+   "fs_lon": 15,
+   "ws_height": 172,
+   "th_height1": 200,
+   "th_height2": 20
+  },
+ 
+  "kelly_creek": {
+   "name": "kelly_creek",
+   "lat_min": 75,
+   "lat_max": 79,
+   "lon_min": 73,
+   "lon_max": 77,
+   "pw_coords": [{"lat": 75, "lon": 75},
+                 {"lat": 75, "lon": 76},
+                 {"lat": 76, "lon": 74},
+                 {"lat": 76, "lon": 75},
+                 {"lat": 76, "lon": 76},
+                 {"lat": 76, "lon": 77},
+                 {"lat": 77, "lon": 74},
+                 {"lat": 77, "lon": 75},
+                 {"lat": 77, "lon": 76},
+                 {"lat": 78, "lon": 74},
+                 {"lat": 78, "lon": 75},
+                 {"lat": 78, "lon": 76}
+                ],
+   "fs_lat": 76,
+   "fs_lon": 78,
+   "ws_height": 80,
+   "th_height1": 10,
+   "th_height2": 77
+  },
+
+  "pilot_hill_post": {
+   "name": "pilot_hill_post",
+   "lat_min": 77,
+   "lat_max": 81,
+   "lon_min": 78,
+   "lon_max": 83,
+   "pw_coords": [{"lat": 77, "lon": 78},
+                 {"lat": 77, "lon": 79},
+                 {"lat": 78, "lon": 78},
+                 {"lat": 78, "lon": 79},
+                 {"lat": 78, "lon": 80},
+                 {"lat": 79, "lon": 79},
+                 {"lat": 79, "lon": 80},
+                 {"lat": 79, "lon": 81},
+                 {"lat": 79, "lon": 82},
+                 {"lat": 80, "lon": 82}
+               ],
+   "fs_lat": 76,
+   "fs_lon": 78,
+   "ws_height": 78,
+   "th_height1": 10,
+   "th_height2": 77
+  },
+
+  "pilot_hill": {
+   "name": "pilot_hill",
+   "lat_min": 77,
+   "lat_max": 81,
+   "lon_min": 78,
+   "lon_max": 83,
+   "pw_coords": [{"lat": 77, "lon": 78},
+                 {"lat": 77, "lon": 79},
+                 {"lat": 78, "lon": 78},
+                 {"lat": 78, "lon": 79},
+                 {"lat": 78, "lon": 80},
+                 {"lat": 79, "lon": 79},
+                 {"lat": 79, "lon": 80},
+                 {"lat": 79, "lon": 81},
+                 {"lat": 79, "lon": 82},
+                 {"lat": 80, "lon": 82}
+                ],
+   "fs_lat": 76,
+   "fs_lon": 78,
+   "ws_height": 78,
+   "th_height1": 10,
+   "th_height2": 77
+  },
+  
+  "longhorn2": {
+   "name": "longhorn2",
+   "lat_min": 88,
+   "lat_max": 91,
+   "lon_min": 81,
+   "lon_max": 85,
+   "fs_lat": 87,
+   "fs_lon": 80,
+   "ws_height": 80,
+   "th_height1": 11,
+   "th_height2": 76
+  },
+
+  "rockfalls": {   
+  "name": "rockfalls",
+  "lat_min": 74,
+  "lat_max": 79,
+  "lon_min": 75,
+  "lon_max": 80,
+  "fs_lat": 75,
+  "fs_lon": 76,
+  "ws_height": 85,
+  "th_height1": 10,
+  "th_height2": 79
+  },
+  
+ "bobcat": { 
+  "name": "bobcat",
+  "lat_min": 70,
+  "lat_max": 74,
+  "lon_min": 85,
+  "lon_max": 91,
+  "pw_coords": [{"lat": 70, "lon": 86},
+                {"lat": 70, "lon": 87},
+                {"lat": 70, "lon": 88},
+                {"lat": 70, "lon": 89},
+                {"lat": 71, "lon": 87},
+                {"lat": 71, "lon": 88},
+                {"lat": 71, "lon": 89},
+                {"lat": 72, "lon": 89},
+                {"lat": 72, "lon": 90},
+                {"lat": 73, "lon": 89},
+                {"lat": 73, "lon": 90}
+              ],
+  "fs_lat": 73,
+  "fs_lon": 79,
+  "ws_height": 80,
+  "th_height1": 10,
+  "th_height2": 75,
+  "map_lon_min": -98.95,
+  "map_lon_max": -98.2,
+  "map_lat_min": 33.25,
+  "map_lat_max": 33.6
+  },
+  "windthorst2": {
+
+  "name": "windthorst2",
+  "lat_min": 70,
+  "lat_max": 74,
+  "lon_min": 91,
+  "lon_max": 93,
+  "pw_coords": [{"lat": 70, "lon": 90},
+                {"lat": 70, "lon": 91},
+                {"lat": 71, "lon": 90},
+                {"lat": 71, "lon": 91},
+                {"lat": 72, "lon": 92}
+              ],
+  "fs_lat": 73,
+  "fs_lon": 79,
+  "ws_height": 80,
+  "th_height1": 10,
+  "th_height2": 75
+  },
+   "bobcat_wt2": {
+
+  "name": "bobcat_wt2",
+  "lat_min": 70,
+  "lat_max": 74,
+  "lon_min": 85,
+  "lon_max": 93,
+  "fs_lat": 73,
+  "fs_lon": 79,
+  "ws_height": 80,
+  "th_height1": 10,
+  "th_height2": 75
+  },
+
+  "cotton_plains": {
+  "name": "cotton_plains",
+  "lat_min": 76,
+  "lat_max": 80,
+  "lon_min": 81,
+  "lon_max": 87
+  },
+
+  "longhorn_briscoe": {
+  "name": "longhorn_briscoe",
+  "lat_min": 88,
+  "lat_max": 94,
+  "lon_min": 77,
+  "lon_max": 84
+  },
+
+  "longhorn_briscoe": {
+  "name": "longhorn_briscoe",
+  "lat_min": 88,
+  "lat_max": 94,
+  "lon_min": 77,
+  "lon_max": 84 
+  },
+
+ "wake": {
+  "name": "wake",
+  "lat_min": 69,
+  "lat_max": 75,
+  "lon_min": 83,
+  "lon_max": 87
+  },
+
+ "wake": {
+  "name": "wake",
+  "lat_min": 69,
+  "lat_max": 75,
+  "lon_min": 83,
+  "lon_max": 87
+  },
+
+  "mcadoo": {
+  "name": "mcadoo",
+  "lat_min": 67,
+  "lat_max": 72,
+  "lon_min": 88,
+  "lon_max": 92
+  },
+
+  "south_plains_ii": {
+  "name": "south_plains_ii",
+  "lat_min": 84,
+  "lat_max": 87,
+  "lon_min": 76,
+  "lon_max": 81
+  },
+
+  "south_plains_i": {
+  "name": "south_plains_i",
+  "lat_min": 80,
+  "lat_max": 83,
+  "lon_min": 76,
+  "lon_max": 81
+  }
+
+}
