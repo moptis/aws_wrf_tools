@@ -22,8 +22,8 @@ my_WPS = sys.argv[3] # WPS setup ('WPS1' for ERA5, 'WPS2' for MERRA2)
 
 ### Directory management
 home_dir = os.getcwd()
-scripts_dir = '/shared/mys3/scripts/interm2met/'
-meta_data_dir = '/shared/mys3/key_inputs/'
+scripts_dir = '/shared/aws_wrf_tools/scripts/interm2met/'
+meta_data_dir = '/shared/aws_wrf_tools/key_inputs/'
 # p = Path(home_dir)     # Note: this assumes the BOEM Pacific directory structure
 # my_WPS = p.parts[-2]
 
