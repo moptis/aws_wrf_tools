@@ -94,7 +94,7 @@ def grib2interm(sdate, edate, gribpath, intermpath, scriptpath):
     print("    .grib files linked and ungribbed!")
 
     ## Remove unnecessary data
-    #os.system("rm ERA5*")
+    os.system("rm ERA5-*")
     os.system("rm GRIBFILE.*")
     
     ### ~~~~~~~~~~~~~~ PROCESS PRESSURE FILES ~~~~~~~~~~~~~~~~~~~     
@@ -154,7 +154,7 @@ def main():
     # File locations
     gribpath="/shared/mys3/era5_data/"
     intermpath="/shared/mys3/era5_data/interm/" 
-    scriptpath="/shared/mys3/scripts/grib2interm/"
+    scriptpath="/shared/aws_wrf_tools/scripts/grib2interm/"
 
     if convert:
         grib2interm(sdate, edate, gribpath, intermpath, scriptpath)

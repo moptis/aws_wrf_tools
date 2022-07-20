@@ -1,4 +1,47 @@
-{ "slate_creek": {
+{ "wapsi": {
+   "name": "wapsi",
+   "pw_coords": [{"lat": 85, "lon": 78},
+                 {"lat": 85, "lon": 79},
+                 {"lat": 86, "lon": 79},
+                 {"lat": 86, "lon": 80},
+                 {"lat": 87, "lon": 79},
+                 {"lat": 87, "lon": 80}
+		],
+   "fs_lat": 76,
+   "fs_lon": 77,
+   "ws_height": 79,
+   "th_height1": 15,
+   "th_height2": 76
+  }, 
+
+  "slate_creek": {
+   "name": "slate_creek",
+   "lat_min": 91,
+   "lat_max": 96,
+   "lon_min": 73,
+   "lon_max": 81,
+   "pw_coords": [{"lat": 91, "lon": 78},
+                 {"lat": 91, "lon": 79},
+                 {"lat": 92, "lon": 77},
+                 {"lat": 92, "lon": 78},
+                 {"lat": 92, "lon": 79},
+                 {"lat": 93, "lon": 74},
+                 {"lat": 93, "lon": 75},
+                 {"lat": 93, "lon": 76},
+                 {"lat": 93, "lon": 77},
+                 {"lat": 94, "lon": 73},
+                 {"lat": 94, "lon": 74},
+                 {"lat": 94, "lon": 75},
+                 {"lat": 94, "lon": 76}
+                ],
+   "fs_lat": 76,
+   "fs_lon": 77,
+   "ws_height": 79,
+   "th_height1": 15,
+   "th_height2": 76
+  },
+
+  "slate_creek": {
    "name": "slate_creek",
    "lat_min": 91,
    "lat_max": 96,
