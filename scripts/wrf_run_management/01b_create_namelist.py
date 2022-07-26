@@ -7,10 +7,10 @@ from calendar import monthrange
 import sys
 
 domain = sys.argv[1]
-type = 'all_farms'
+type = 'distant'
 root_dir = "./"
 
-mo_df = pd.read_csv('/shared/key_inputs/model_months.csv')
+mo_df = pd.read_csv('/shared/aws_wrf_tools/key_inputs/model_months.csv')
 df = mo_df.loc[mo_df['windfarm'] == domain]
 print(df)
 #year = int(sys.argv[2])
@@ -47,7 +47,7 @@ for n in np.arange(0,12):
         print(dirpath)
         if not os.path.exists(dirpath):
             os.mkdir(dirpath)
-        with open('/shared/namelists/namelist.input.template.%s' % domain, 'r') as file:
+        with open('/shared/aws_wrf_tools/namelists/namelist.input.template.3km', 'r') as file:
             filedata = file.read()
         
             # Write start and end dates
@@ -65,10 +65,10 @@ for n in np.arange(0,12):
             with open('%s/%s/%s/namelist.input' % (root_dir,type,dir,), 'w') as file:
                 file.write(filedata)
 	    
-            run_df = pd.read_csv('/shared/key_inputs/run_indices.csv', index_col = 0)
+            run_df = pd.read_csv('/shared/aws_wrf_tools/key_inputs/run_indices.csv', index_col = 0)
             print(run_df.index)
             run_df.loc[int(dir), domain] = st_date
-            run_df.to_csv('/shared/key_inputs/run_indices.csv', index = True)
+            run_df.to_csv('/shared/aws_wrf_tools/key_inputs/run_indices.csv', index = True)
             # Update directory
             st_date = st_date + pd.Timedelta(2, 'D')
             en_date = en_date + pd.Timedelta(2, 'D')
