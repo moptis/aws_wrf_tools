@@ -27,7 +27,7 @@
  !
  !!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT NOTE !!!!!!!!!!!!!!!!!!!!!!!!!!!!
  !
- geog_data_res = 'default','default','default',
+ geog_data_res = '30s','30s','30s',
  dx = 9000,    ! MODIFY ME
  dy = 9000,    ! MODIFY ME
  map_proj = 'lambert',    ! MODIFY ME
@@ -36,8 +36,8 @@
  truelat1  = $TRUE_LAT1,   ! MODIFY ME
  truelat2  =  $TRUE_LAT2,   ! MODIFY ME
  stand_lon = $STAND_LON,
- geog_data_path = '/shared/mys3/geog_data/WPS_GEOG/'
- opt_geogrid_tbl_path = '/shared/mys3/scripts/interm2met/'
+ geog_data_path = '/shared/WPS_GEOG/'
+ opt_geogrid_tbl_path = '/shared/aws_wrf_tools/scripts/interm2met/'
 /
 
 &ungrib
@@ -48,5 +48,5 @@
 &metgrid
  fg_name = 'ERA5_PRES', 'ERA5_SURF',
  io_form_metgrid = 2,
- opt_metgrid_tbl_path = '/shared/mys3/scripts/interm2met/'
+ opt_metgrid_tbl_path = '/shared/aws_wrf_tools/scripts/interm2met/'
 /
