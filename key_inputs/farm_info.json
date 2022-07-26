@@ -1,4 +1,36 @@
-{ "wapsi": {
+{ "red_pine": {
+   "name": "red_pine",
+   "pw_coords": [{"lat": 76, "lon": 83},
+             {"lat": 76, "lon": 84},
+             {"lat": 77, "lon": 82},
+             {"lat": 77, "lon": 83},
+             {"lat": 77, "lon": 84},
+             {"lat": 78, "lon": 80},
+             {"lat": 78, "lon": 81},
+             {"lat": 78, "lon": 82},
+             {"lat": 78, "lon": 83},
+             {"lat": 79, "lon": 80},
+             {"lat": 79, "lon": 81},
+             {"lat": 79, "lon": 82},
+             {"lat": 79, "lon": 83},
+             {"lat": 80, "lon": 80},
+             {"lat": 80, "lon": 81},
+             {"lat": 80, "lon": 82},
+             {"lat": 80, "lon": 83},
+             {"lat": 80, "lon": 84},
+             {"lat": 81, "lon": 80},
+             {"lat": 81, "lon": 81},
+             {"lat": 81, "lon": 82},
+             {"lat": 81, "lon": 83}
+            ],
+   "fs_lat": 77,
+   "fs_lon": 80,
+   "ws_height": 80,
+   "th_height1": 11,
+   "th_height2": 73
+  },
+
+  "wapsi": {
    "name": "wapsi",
    "pw_coords": [{"lat": 85, "lon": 78},
                  {"lat": 85, "lon": 79},
