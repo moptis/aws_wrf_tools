@@ -10,5 +10,4 @@ for m in {001..179}
 do
   echo $m
   aws s3 mv /shared/processed/$domain/domain/$m s3://nwpm/processed_results/$domain/domain/$m  --recursive
-  #mv ./$domain/*_20*-$m-* ./$domain/$m
 done

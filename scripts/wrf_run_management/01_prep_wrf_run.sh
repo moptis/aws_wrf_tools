@@ -1,16 +1,16 @@
 
 #!/bin/bash
 
-domain='bobcat'
+domain='fenton'
 
 for d in {001..179}
 do
-for t in target_only all_farms
+for t in all_farms distant target_only
 do
     echo $d
     mkdir -p ./$t/$d
 
-    ln -sf /shared/turbines/$domain/wind-t* ./$t/$d
+    ln -sf /shared/aws_wrf_tools/turbines/$domain/wind-t* ./$t/$d
 
     ln -sf $WRF_ROOT/*DATA ./$t/$d
     ln -sf $WRF_ROOT/*DBL ./$t/$d
@@ -21,8 +21,9 @@ do
     ln -sf $WRF_ROOT/wrf.exe ./$t/$d
 
 done
-ln -sf /shared/turbines/$domain/windturbines_${domain}_only.txt ./target_only/$d/windturbines.txt
-ln -sf /shared/turbines/$domain/windturbines_${domain}_all_farms.txt ./all_farms/$d/windturbines.txt
+ln -sf /shared/aws_wrf_tools/turbines/$domain/windturbines_${domain}_only.txt ./target_only/$d/windturbines.txt
+ln -sf /shared/aws_wrf_tools/turbines/$domain/windturbines_${domain}_all_farms.txt ./all_farms/$d/windturbines.txt
+ln -sf /shared/aws_wrf_tools/turbines/$domain/windturbines_${domain}_distant.txt ./distant/$d/windturbines.txt
 done
 
 

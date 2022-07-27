@@ -2,8 +2,8 @@
 #!/bin/bash
 
 domain='bobcat'
-t='target_only'
-#t='all_farms'
+#t='target_only'
+t='all_farms'
 
 for d in {001..179}
 #for d in 031 035 092 179

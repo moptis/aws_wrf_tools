@@ -7,15 +7,11 @@ from calendar import monthrange
 import sys
 
 domain = sys.argv[1]
-type = 'distant'
+type = sys.argv[2]
 root_dir = "./"
 
 mo_df = pd.read_csv('/shared/aws_wrf_tools/key_inputs/model_months.csv')
 df = mo_df.loc[mo_df['windfarm'] == domain]
-print(df)
-#year = int(sys.argv[2])
-#month = int(sys.argv[3])
-#type = sys.argv[4]
 
 # Turn integer month into string
 def ID(x):
@@ -38,13 +34,7 @@ for n in np.arange(0,12):
         end_diff = pd.Timedelta(final_end - en_date).days
         if end_diff < 2:
            en_date = final_end
-            #en_date = final_end #en_date - pd.Timedelta(1, 'D') # make sure we terminate on the first of the next month
-        #    print('yes')
-           print(dir, st_date, en_date)
-        #print(st_date, en_date, pd.Timedelta(final_end - en_date).days)
-       # Open master namelist file and make the replacement
         dirpath = root_dir + '/%s/' % type + dir
-        print(dirpath)
         if not os.path.exists(dirpath):
             os.mkdir(dirpath)
         with open('/shared/aws_wrf_tools/namelists/namelist.input.template.3km', 'r') as file:
@@ -66,7 +56,6 @@ for n in np.arange(0,12):
                 file.write(filedata)
 	    
             run_df = pd.read_csv('/shared/aws_wrf_tools/key_inputs/run_indices.csv', index_col = 0)
-            print(run_df.index)
             run_df.loc[int(dir), domain] = st_date
             run_df.to_csv('/shared/aws_wrf_tools/key_inputs/run_indices.csv', index = True)
             # Update directory
