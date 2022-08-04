@@ -12,6 +12,7 @@ root_dir = "./"
 
 mo_df = pd.read_csv('/shared/aws_wrf_tools/key_inputs/model_months.csv')
 df = mo_df.loc[mo_df['windfarm'] == domain]
+df.reset_index(inplace = True)
 
 # Turn integer month into string
 def ID(x):

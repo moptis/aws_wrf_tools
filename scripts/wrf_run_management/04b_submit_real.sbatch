@@ -11,9 +11,6 @@ set -x
 ulimit -s unlimited
 ulimit -a
 
-domain='fenton'
-t='all_farms'
-
 for n in {001..179}
 do
 
