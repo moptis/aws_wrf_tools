@@ -87,13 +87,13 @@ def process_wrf(d):
                     t1 = interplevel(temp, h, th_height1) # lower pot. temp.
     
                     # Assign data to our dictionary
-                    data_dict['ws'] = ws_hh
-                    data_dict['wd'] = wd_hh
-                    data_dict['th2'] = th2
-                    data_dict['th1'] = th1
-                    data_dict['t2'] = t2
-                    data_dict['t1'] = t1
-                    data_dict['power'] = pw
+                    data_dict['ws'] = ws_hh.to_numpy()
+                    data_dict['wd'] = wd_hh.to_numpy()
+                    data_dict['th2'] = th2.to_numpy()
+                    data_dict['th1'] = th1.to_numpy()
+                    data_dict['t2'] = t2.to_numpy()
+                    data_dict['t1'] = t1.to_numpy()
+                    data_dict['power'] = pw.to_numpy()
                 
                     # Extract time series
                     fields = data_dict.keys()

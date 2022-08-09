@@ -1,8 +1,14 @@
 #!/bin/bash
 
-domain='pilot_hill'
+domain='spinning_spur'
 t='distant'
 
 export domain
 export t
-sbatch ./04b_submit_real.sbatch
+
+#for n in {001..179}
+for n in {001..179}
+do
+   export n
+   sbatch ./04b_submit_real.sbatch
+done

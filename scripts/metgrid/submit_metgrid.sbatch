@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=WRF
 #SBATCH --output=conus-%j.out
-#SBATCH --ntasks=48
+#SBATCH --ntasks=1
 #SBATCH --exclusive
 
 spack load intel-oneapi-mpi

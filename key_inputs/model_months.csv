@@ -1,4 +1,16 @@
 month,windfarm,year
+01,glacier,2018
+02,glacier,2018
+03,glacier,2020
+04,glacier,2019
+05,glacier,2021
+06,glacier,2019
+07,glacier,2020
+08,glacier,2018
+09,glacier,2019
+10,glacier,2020
+11,glacier,2019
+12,glacier,2018
 01,fenton,2018
 02,fenton,2020
 03,fenton,2020
@@ -48,6 +60,7 @@ month,windfarm,year
 11,spinning_spur,2020
 12,spinning_spur,2019
 01,spinning_spur,2020
+01,spinning_spur3,2020
 02,spinning_spur3,2020
 03,spinning_spur3,2018
 04,spinning_spur3,2020
