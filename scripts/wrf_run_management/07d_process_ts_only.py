@@ -34,7 +34,7 @@ def process_wrf(d):
     run_types = ['all_farms', 'target_only', 'distant'] # Which run type do we want to process
     #run_types = ['target_only']
 
-    save_dir = '/shared/mys3/processed_results/%s/' % domain
+    save_dir = '/shared/mys3/processed/%s/' % domain
     save_ts = "%s/timeseries/" % save_dir
     os.makedirs(save_ts, exist_ok = True)
     
@@ -44,7 +44,7 @@ def process_wrf(d):
         dict_list = glob.glob("%s/%s*.p" % (save_domain, r,))
         
         for di in dict_list:
-            print(di)
+            #print(di)
             data_dict = pk.load(open(di, 'rb')) 
     
             date_str = di.split('.')[0][-19:]
@@ -52,17 +52,17 @@ def process_wrf(d):
             dt = pd.to_datetime(date_str, format = "%Y-%m-%d_%H:%M:%S")                
 
             fields = data_dict.keys()
-            print(data_dict)
+            #print(data_dict)
             for f in fields:
                 dtemp = data_dict[f]
-                print(dtemp)
+                #print(dtemp)
                 if f=='power':
                     tot = 0
                     for c in coords:
                         tot = tot + float(dtemp[c['lat'], c['lon']])
                         dfinal = tot/1e6
                 else:
-                    dsub = dtemp[fs_lat, fs_lon].values
+                    dsub = dtemp[fs_lat, fs_lon]
                     dfinal = dsub
 
                 ts_df.loc[dt, '%s_%s' %(r,f,)] = dfinal
