@@ -12,8 +12,7 @@
         "HFX":"surface_heat_flux",
         "TSK":"skin_temperature",
         "TKE":"turbulent_kinetic_energy_",
-        "PBLH":"boundary_layer_height",
-        "POWER": "wind_power"
+        "PBLH":"boundary_layer_height"
     },
     "dimensions":{
         "pressure":[
@@ -74,27 +73,21 @@
             "time",
             "south_north",
             "west_east"
-        ],
-        "POWER":[
-            "time",
-            "south_north",
-            "west_east"
         ]
     },
     "dtype":{
-        "pressure":"int16",
-        "temperature":"int16",
+        "pressure":"float32",
+        "temperature":"float32",
         "times":"S1",
-        "wind_dir":"int16",
-        "wind_speed":"int16",
-        "rh":"int16",
-        "SST":"int16",
-        "UST":"int16",
-        "HFX":"int16",
-        "TSK":"int16",
-        "TKE":"int16",
-        "PBLH":"int16",
-        "POWER":"int16"
+        "wind_dir":"float32",
+        "wind_speed":"float32",
+        "rh":"float32",
+        "SST":"float32",
+        "UST":"float32",
+        "HFX":"float32",
+        "TSK":"float32",
+        "TKE":"float32",
+        "PBLH":"float32"
     },
     "long_name":{
         "pressure":"pressure at",
@@ -108,8 +101,7 @@
         "HFX":"surface heat flux",
         "TSK":"skin temperature",
         "TKE":"turbulent kinetic energy",
-        "PBLH":"boundary layerheight",
-        "POWER": "wind power"
+        "PBLH":"boundary layerheight"
     },
     "units":{
         "pressure":"Pa",
@@ -123,8 +115,7 @@
         "HFX":"W m-2",
         "TSK":"K",
         "TKE":"m2 s-2",
-        "PBLH":"m",
-        "POWER": "W"
+        "PBLH":"m"
     },
     "range_after_scale_and_offset":{
         "pressure":[
@@ -170,11 +161,7 @@
         ],
         "PBLH":[
             0,
-            10000
-        ],
-        "POWER":[
-            0,
-            500.0
+            1
         ]
     },
     "heights":{
@@ -228,38 +215,35 @@
             400,
             500
         ],
-        "PBLH":null,
-        "POWER": null
+        "PBLH":null
     },
     "scale_factor":{
-        "pressure":0.9155552983,
-        "temperature":0.0030518509,
+        "pressure":1.,
+        "temperature":1.,
         "times":null,
-        "wind_dir":0.0054933317,
-        "wind_speed":0.0030518509,
-        "rh":0.0015259255,
-        "SST":0.0030518509,
-        "UST":0.0000305185,
-        "HFX":0.0001678518,
-        "TSK":0.0030518509,
-        "TKE":0.0000152593,
-        "PBLH":0.0000152593,
-        "POWER": 0.007629627368999298
+        "wind_dir":1.,
+        "wind_speed":1.,
+        "rh":1.,
+        "SST":1.,
+        "UST":1.,
+        "HFX":1.,
+        "TSK":1.,
+        "TKE":1.,
+        "PBLH":1.
     },
     "add_offset":{
-        "pressure":80000.0,
-        "temperature":250.0,
+        "pressure":0.,
+        "temperature":0.,
         "times":null,
-        "wind_dir":180.0,
-        "wind_speed":100.0,
-        "rh":50.0,
-        "SST":250.0,
-        "UST":1.0,
-        "HFX":-4.5,
-        "TSK":250.0,
-        "TKE":0.5,
-        "PBLH":0.5,
-        "POWER": 250.0
+        "wind_dir":0.,
+        "wind_speed":0.,
+        "rh":0.,
+        "SST":0.,
+        "UST":0.,
+        "HFX":0.,
+        "TSK":0.,
+        "TKE":0.,
+        "PBLH":0.
     },
     "missing_value":{
         "pressure":-32768.0,
@@ -273,8 +257,7 @@
         "HFX":-32768.0,
         "TSK":-32768.0,
         "TKE":-32768.0,
-        "PBLH":-32768.0,
-        "POWER": -32768.0
+        "PBLH":-32768.0
     },
     "_FillValue":{
         "pressure":-32768.0,
@@ -288,7 +271,6 @@
         "HFX":-32768.0,
         "TSK":-32768.0,
         "TKE":-32768.0,
-        "PBLH":-32768.0,
-        "POWER": -32768.0
+        "PBLH":-32768.0
     }
 }
