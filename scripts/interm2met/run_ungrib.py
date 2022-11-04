@@ -31,7 +31,7 @@ def run_ungrib(start_date_str, end_date_str, met_case):
             month = my_date.month
             day = my_date.day
 
-            os.system("ln -sf /shared/era5_data/"+str(year)+"/"+
+            os.system("ln -sf /shared//era5_data/"+str(year)+"/"+
                       str(month).zfill(2)+"/ERA5_*"+str(year)+"-"+
                       str(month).zfill(2)+"-"+str(day).zfill(2)+"_* .")
 

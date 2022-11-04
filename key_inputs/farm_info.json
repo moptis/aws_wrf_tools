@@ -1,4 +1,25 @@
-{ "glacier": {
+{ "rockfalls_v2": {
+   "name": "rockfalls_v2",
+   "pw_coords": [{"lat": 84, "lon": 70},
+                 {"lat": 85, "lon": 69},
+                 {"lat": 85, "lon": 70},    
+                 {"lat": 85, "lon": 71},
+                 {"lat": 85, "lon": 72},
+                 {"lat": 85, "lon": 73},
+                 {"lat": 86, "lon": 68},
+                 {"lat": 86, "lon": 69},
+                 {"lat": 86, "lon": 70},    
+                 {"lat": 86, "lon": 71},
+                 {"lat": 86, "lon": 72}
+                 ],
+   "fs_lat": 75,
+   "fs_lon": 73,
+   "ws_height": 80,
+   "th_height1": 11,
+   "th_height2": 81
+  },
+
+  "glacier": {
    "name": "glacier",
    "pw_coords": [{"lat": 76, "lon": 72},
                  {"lat": 76, "lon": 73},
@@ -92,14 +113,10 @@
    "ws_height": 79,
    "th_height1": 15,
    "th_height2": 76
-  }, 
+  },
 
-  "slate_creek": {
-   "name": "slate_creek",
-   "lat_min": 91,
-   "lat_max": 96,
-   "lon_min": 73,
-   "lon_max": 81,
+  "slate_creek_postmet": {
+   "name": "slate_creek_postmet",
    "pw_coords": [{"lat": 91, "lon": 78},
                  {"lat": 91, "lon": 79},
                  {"lat": 92, "lon": 77},
@@ -114,7 +131,30 @@
                  {"lat": 94, "lon": 75},
                  {"lat": 94, "lon": 76}
                 ],
-   "fs_lat": 76,
+   "fs_lat": 91,
+   "fs_lon": 77,
+   "ws_height": 79,
+   "th_height1": 15,
+   "th_height2": 76
+  }, 
+
+  "slate_creek_pre": {
+   "name": "slate_creek_pre",
+   "pw_coords": [{"lat": 91, "lon": 78},
+                 {"lat": 91, "lon": 79},
+                 {"lat": 92, "lon": 77},
+                 {"lat": 92, "lon": 78},
+                 {"lat": 92, "lon": 79},
+                 {"lat": 93, "lon": 74},
+                 {"lat": 93, "lon": 75},
+                 {"lat": 93, "lon": 76},
+                 {"lat": 93, "lon": 77},
+                 {"lat": 94, "lon": 73},
+                 {"lat": 94, "lon": 74},
+                 {"lat": 94, "lon": 75},
+                 {"lat": 94, "lon": 76}
+                ],
+   "fs_lat": 91,
    "fs_lon": 77,
    "ws_height": 79,
    "th_height1": 15,
@@ -123,10 +163,6 @@
 
   "slate_creek": {
    "name": "slate_creek",
-   "lat_min": 91,
-   "lat_max": 96,
-   "lon_min": 73,
-   "lon_max": 81,
    "pw_coords": [{"lat": 91, "lon": 78},
                  {"lat": 91, "lon": 79},
                  {"lat": 92, "lon": 77},
@@ -141,7 +177,7 @@
                  {"lat": 94, "lon": 75},
                  {"lat": 94, "lon": 76}
                 ],
-   "fs_lat": 76,
+   "fs_lat": 91,
    "fs_lon": 77,
    "ws_height": 79,
    "th_height1": 15,
@@ -284,10 +320,11 @@
              {"lat": 76, "lon": 77},
              {"lat": 77, "lon": 74},
              {"lat": 77, "lon": 75},
-             {"lat": 77, "lon": 76},
+             {"lat": 77, "lon": 77},
              {"lat": 78, "lon": 74},
              {"lat": 78, "lon": 75},
-             {"lat": 78, "lon": 76}
+             {"lat": 78, "lon": 76},
+             {"lat": 78, "lon": 77}
              ],
    "fs_lat": 76,
    "fs_lon": 78,

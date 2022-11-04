@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #for y in {2018..2021}
-for y in 2017
+for y in 2015
 do
-#  for m in {01..12}
+#for m in {01..12}
   for m in 12
   do
     mkdir -p /shared/era5_data/$y/$m/
