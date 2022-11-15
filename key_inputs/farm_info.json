@@ -1,4 +1,62 @@
-{ "rockfalls_v2": {
+{ "cypress": {
+   "name": "cypress",
+   "pw_coords": [
+             {"lat": 75, "lon": 76},
+             {"lat": 75, "lon": 77},
+             {"lat": 75, "lon": 78},
+             {"lat": 76, "lon": 75},
+             {"lat": 76, "lon": 76},
+             {"lat": 76, "lon": 77},
+             {"lat": 76, "lon": 78},
+             {"lat": 77, "lon": 75},
+             {"lat": 77, "lon": 76},
+             {"lat": 77, "lon": 77},
+             {"lat": 77, "lon": 78},
+             {"lat": 78, "lon": 76},
+             {"lat": 78, "lon": 77}
+                ],
+   "fs_lat": 74,
+   "fs_lon": 75,
+   "ws_height": 80,
+   "th_height1": 11,
+   "th_height2": 81
+  }, 
+
+"livingston": {
+   "name": "livingston",
+   "pw_coords": [{"lat": 74, "lon": 76},
+                 {"lat": 74, "lon": 77},
+                 {"lat": 74, "lon": 78},
+                 {"lat": 75, "lon": 76},
+                 {"lat": 75, "lon": 77},
+                 {"lat": 75, "lon": 78},
+                 {"lat": 76, "lon": 76},
+                 {"lat": 76, "lon": 77},
+                 {"lat": 76, "lon": 78},
+                 {"lat": 76, "lon": 79},
+                 {"lat": 77, "lon": 76},
+                 {"lat": 77, "lon": 77},
+                 {"lat": 77, "lon": 78},
+                 {"lat": 77, "lon": 79},        
+                 {"lat": 78, "lon": 77},
+                 {"lat": 78, "lon": 78},            
+                 {"lat": 79, "lon": 77},
+                 {"lat": 79, "lon": 78},
+                 {"lat": 79, "lon": 79},           
+                 {"lat": 80, "lon": 77},
+                 {"lat": 80, "lon": 78},
+                 {"lat": 80, "lon": 79},             
+                 {"lat": 81, "lon": 78},
+                 {"lat": 81, "lon": 79}
+                ],
+   "fs_lat": 75,
+   "fs_lon": 73,
+   "ws_height": 80,
+   "th_height1": 11,
+   "th_height2": 81
+  },
+
+  "rockfalls_v2": {
    "name": "rockfalls_v2",
    "pw_coords": [{"lat": 84, "lon": 70},
                  {"lat": 85, "lon": 69},
