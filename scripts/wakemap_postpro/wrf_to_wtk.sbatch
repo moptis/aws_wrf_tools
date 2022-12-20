@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --time=00:10:00
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --partition=short
+#SBATCH --account=boempac
+#SBATCH --qos=high
+ 
+#source activate /shared-projects/wtk_5min/modulefiles/conda_env
+source activate wtk
+
+wrf_dir=/scratch/moptis/national/wrf_runs/production/all_farms/$n/
+wtk_dir=/scratch/moptis/national/processed/all_farms/$n/
+prefix=wrfout_d01
+wrf_file_size=0.25
+workers=36
+var_attr_path=/scratch/moptis/national/processed/wtk_attrs.json
+
+wtk run-wrf-to-wtk --wrf_dir=${wrf_dir} --wtk_dir=${wtk_dir} --wrf_file_size=${wrf_file_size} --file_prefix=${prefix} --process_dir=/tmp/scratch --max_workers=${workers} --var_attr_path=${var_attr_path}
+

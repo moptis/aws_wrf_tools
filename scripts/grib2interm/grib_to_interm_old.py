@@ -153,7 +153,7 @@ def main():
 
     # File locations
     gribpath="/shared/mys3/era5_data/"
-    intermpath="/shared/mys3/era5_data/interm/" 
+    intermpath="/shared/era5_data/interm/" 
     scriptpath="/shared/aws_wrf_tools/scripts/grib2interm/"
 
     if convert:

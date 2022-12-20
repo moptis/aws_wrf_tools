@@ -30,8 +30,8 @@ if not os.path.exists(save_dir):
 
 c = cdsapi.Client()
 
-#for d in [1]:
-for d in np.arange(1, days_in_month+1):
+for d in [1]:
+#for d in np.arange(1, days_in_month+1):
     save_name = '%s/ERA5-pressure-%s-%s-%s.grib' % (save_dir, str(year), conv(month), conv(d),)
     print(save_name)
     if not os.path.isfile(save_name):
